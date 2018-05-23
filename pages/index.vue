@@ -3,23 +3,31 @@
     <div>
       <app-logo/>
        <h2 class="subtitle">
-        we are a group of 7 Harvey Mudd College students 
+        We are a group of 7 Harvey Mudd College students 
        </h2>
        <h2 class="subtitle">
        researching and brainstorming business opportunities, 
        </h2>
        <h2 class="subtitle">
-       choosing a promising business direction, and designing and prototyping a system
+       choosing a promising business direction, and designing
        </h2>
        <h2 class="subtitle">
-       that illustrates the business opportunities.
+       and prototyping a system that illustrates the business opportunities.
        </h2>
     </div>
   </section>
 </template>
 
 
+<script>
+import AppLogo from '~/components/AppLogo.vue'
 
+export default {
+  components: {
+    AppLogo
+  }
+}
+</script>
 
 
 <style>
